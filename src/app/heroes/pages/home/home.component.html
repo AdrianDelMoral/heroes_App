@@ -43,8 +43,11 @@
         </button>
         
         <span class="spacer"></span>
+        
+        <span> {{ showAuthAtHome.usuario }}</span>
 
-        <button mat-button>
+        <button mat-button
+                (click)="logout()">
                 Logout
         </button>
     </mat-toolbar>
